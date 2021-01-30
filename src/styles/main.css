@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;   
+}
+
+.portada {
+    background-image: url("https://source.unsplash.com/random/600x600");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.portada2 {
+    background-image: url("https://source.unsplash.com/random/600x601");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  
+
+.filtro {
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
